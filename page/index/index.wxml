@@ -1,0 +1,19 @@
+<!--page/index/index.wxml-->
+<view class="notice-warpper">
+	<notice-bar
+		id="notice1"
+		scrollable
+		class="notice-bar"
+		text="notice-bar"
+	/>
+</view>
+
+<view class="notice-warpper">
+	<notice-bar id="notice2" class="notice-bar">
+		<text class="notice-slot-text">
+			<text>测试slot</text>
+			<text style="margin: 0 40rpx;">and</text>
+			<text style="color: #fff">--------------long text--------------</text>
+		</text>
+	</notice-bar>
+</view>

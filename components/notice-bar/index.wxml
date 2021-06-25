@@ -1,0 +1,8 @@
+<wxs src="./index.wxs" module="wxs"></wxs>
+
+<block wx:if="{{text}}">
+	<text id="notice-text" style="{{wxs.styleFn(color, background)}}" animation="{{animation}}">{{text}}</text>
+</block>
+<block wx:else>
+	<text id="notice-text" style="{{wxs.styleFn(color, background)}}" animation="{{animation}}"><slot /></text>
+</block>

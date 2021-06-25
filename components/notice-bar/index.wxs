@@ -1,0 +1,12 @@
+module.exports = {
+	styleFn: function(color, background) {
+		var style = 'white-space: nowrap;'
+		if (color) {
+			style += 'color: ' + color + ';'
+		}
+		if (background) {
+			style += 'color: ' + background + ';'
+		}
+		return style
+	}
+}

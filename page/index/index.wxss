@@ -1,0 +1,22 @@
+/* page/index/index.wxss */
+.notice-warpper {
+	width: 50%;
+	height: 20vh;
+	margin: 20rpx auto;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: #ccc;
+}
+
+.notice-bar {
+	display: flex;
+	align-items: center;
+	background: red;
+	overflow: hidden;
+}
+
+.notice-slot-text {
+	font-size: 36rpx;
+	line-height: 40rpx;
+}
